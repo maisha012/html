@@ -1,0 +1,377 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+
+
+}
+.maisha{
+	clear: both;
+}
+h1,h2,h3,h4,h5,h6,p,a,span{
+	padding: 0;
+	margin: 0;
+}
+/*headrer part css star*/
+header{
+	background-color: #02918c;
+}
+/*font-family: 'Open Sans', sans-serif;*/
+.heartes{
+	display: inline-flex;
+	margin-top: 30px;
+
+}
+.heartes h6{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;;
+  text-transform: uppercase;
+	color:white;
+	font-weight: 800;
+
+}
+.heartes p{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;;
+  text-transform: uppercase;
+	color:#cfc91d ;
+	font-weight: 800;
+	margin-top: -3px;
+
+}
+.headertes1 ul{
+	display: inline-flex;
+	margin-top: 30px;
+	
+}
+.headertes1 ul li a{
+		font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+	color:white ;
+	font-weight: 700;
+	padding: 10px;
+}
+
+/*header part css end*/
+/*nav part css star*/
+nav{
+		background-image: url(../pic/n1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+
+.nav_tes h4{
+	margin-top: 200px;
+		font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+  
+	color:white ;
+	font-weight: 400;
+}
+.nav_tes h2{
+		font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+	color:white ;
+	font-weight: 800;
+	text-align: center;
+	
+}
+.nav_tes p{
+		font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+  text-align: center;
+	color:white ;
+	font-weight: 400;
+}
+.nav_pic{
+	text-align: center;
+	margin-top: 50px;
+
+}
+.nav_buttom{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 200px;
+
+}
+button{
+	background-color: #cfc91d;
+	color: black;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+	border: 2px solid #cfc91d;
+	font-weight: 800;
+}
+/*nav part css end*/
+/*about part css star */
+.common_heading h1{
+		font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+	color:#02918c ;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 90px;
+}
+.common_heading_pic{
+	text-align: center;
+	margin-top: 15px;
+}
+.about_tes{
+	text-align: center;
+}
+.about_tes p{
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		margin-top: 40px;
+		margin-bottom: 70px;
+}
+.more_about{
+	text-align: center;
+	border-right: 2px solid #d9dbdb;
+	
+	padding-bottom:40px ;
+	padding-right:20px ;
+}
+.more_tes h4{
+	margin-top: 30px;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+		font-weight: 800;
+}
+.more_tes p{
+	margin-top: 15px;
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+}
+.common_heading1 h1{
+		font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+	color:#02918c ;
+	font-weight: 900;
+	
+	margin-top: 50px;
+}
+.common_heading_pic1{
+	
+	margin-top: 15px;
+}
+.common_tes p{
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		color: #878b8f;
+		margin-top: 20px;
+		margin-bottom: 40px;
+
+}
+/*about part css end */
+/*service part css star*/
+.service_tes h4{
+	color: #7e8287;
+/*	margin-top: 10px;*/
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	margin-bottom: 10px;
+}
+.service_tes p{
+	color: #a1a4a4;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+#service{
+	background-image: url(../pic/s5.png);
+	margin-top: 70px;
+	padding: 20px;
+}
+.more_img img{
+	margin-top: 1px;
+	margin-bottom: 10px;
+}
+/*service part css end*/
+/*work part css star*/
+.mywork_tes p{
+	color: #898c91;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	margin: 15px 10px;
+
+}
+/*work part css end*/
+/*garally part css star*/
+.garallypart{
+	position: relative;
+	
+
+
+}
+.garally_img {
+	margin-top: 80px;
+	
+
+}
+
+.garally_overlay{
+	width: 80%;
+	height: 80%;
+background-color: #21958e;
+  opacity:0.8;
+	position: absolute;
+	left: 35px;
+	top: 30px;
+	transform: scale(0);
+	transition: all linear .3s;
+	padding: 0;
+	margin: 0;
+
+}
+.garallypart:hover .garally_overlay{
+		transform: scale(1);
+	transition: all linear .3s;
+}
+.garally_overlay p{
+			font-family: 'Open Sans', sans-serif;
+ margin-top: 5px;
+	color: white;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
+.garally_overlay h4{
+		
+ margin-top: 70px;
+	color: white;
+	
+	
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+.garallypart1{
+	position: relative;
+	
+
+
+}
+.md-mar{
+	padding: 0px;
+}
+.garally_img1 img{
+	height: 250px;
+	
+}
+.garally_img img{
+	height: 250px;
+	
+}
+
+.garally_overlay1{
+	width: 80%;
+	height: 80%;
+background-color: #21958e;
+  opacity:0.8;
+	position: absolute;
+	left: 35px;
+	top: 30px;
+	transform: scale(0);
+	transition: all linear .3s;
+	padding: 0;
+	margin: 0;
+
+}
+.garallypart1:hover .garally_overlay1{
+		transform: scale(1);
+	transition: all linear .3s;
+}
+.garally_overlay1 p{
+			font-family: 'Open Sans', sans-serif;
+ margin-top: 5px;
+	color: white;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
+.garally_overlay1 h4{
+		
+ margin-top: 70px;
+	color: white;
+	
+	
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+/*garally part css end*/
+/*footer part css star */
+footer{
+	background-color: black;
+	margin-top: 50px;
+}
+.form-label{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.form-control{
+	background-color: black;
+	border: black;
+	border-bottom: 2px solid #898989;
+	
+}
+form{
+	text-align: center;
+	color: #797c81;
+}
+
+.maisha form input{
+	height: 30px;
+	width: 600px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #898989;
+	color: white;
+	
+
+}
+label{
+	margin-top: 50px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.maisha1 form input{
+	height: 30px;
+	width: 900px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #898989;
+	color: white;
+	margin-bottom: 50px;
+}
+.nav_buttom1{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+/*footer part css end */
